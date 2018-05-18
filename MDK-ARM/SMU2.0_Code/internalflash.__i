@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I..\Drivers\User_Driver\Inc --C99
+-I D:\SINOAGG-2017\Ô´±í\SMU2.0_Code\MDK-ARM\RTE
+-I D:\MDK\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include
+-I D:\MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include
+-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F10X_HD -DUSE_HAL_DRIVER -DSTM32F103xE
+-o smu2.0_code\internalflash.o --omf_browse smu2.0_code\internalflash.crf --depend smu2.0_code\internalflash.d "..\Drivers\User_Driver\Src\InternalFlash.c"
